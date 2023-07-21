@@ -1,0 +1,59 @@
+.descr {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 65px;
+    padding: 0 80px;
+
+    &__img {
+        margin-right: 50px;
+
+        & img {
+            height: 277px;
+        }
+    }
+
+    &__right {
+        &-title {
+            font-size: 25px;
+            font-weight: 700;
+            color: $text_color;
+        }
+
+        &-text {
+            margin-top: 15px;
+            font-size: 20px;
+            font-weight: 400;
+            color: $text_color;
+        }
+
+        &-total {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 35px;
+
+            & .price {
+                font-size: 20px;
+                font-weight: 700;
+                color: $text_color;
+
+                & span {
+                    font-weight: 400;
+                }
+            }
+
+            & button {
+                height: 23px;
+                width: 170px;
+                background-color: #fff;
+                border: 1px solid $main_color;
+                color: $main_color;
+                font-size: 15px;
+                font-weight: 400;
+            }
+        }
+    }
+}
+
+#descr__info{
+    transition: all 0.6s;
+}
